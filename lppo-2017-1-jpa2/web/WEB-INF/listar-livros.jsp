@@ -24,10 +24,11 @@
             </tr>
             <c:forEach var="livro" items="${livros}">
             <tr>
-                <td>${livro.id}</td>
+                <td><a href="editar.html?id=${livro.id}">${livro.id}</a></td>
                 <td>${livro.titulo}</td>
                 <td>${livro.ano}</td>
                 <td>${livro.autor}</td>
+                 <td><a href="excluir.html?id="${livro.id}>X</a></td>
             </tr>
             </c:forEach>
         </table>
