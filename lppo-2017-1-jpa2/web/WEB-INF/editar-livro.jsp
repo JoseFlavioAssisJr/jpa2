@@ -1,7 +1,7 @@
 <%-- 
     Document   : editar-livro
     Created on : 05/06/2017, 21:13:10
-    Author     : alunoces
+    Author     : José Flávio
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -13,6 +13,7 @@
         <title>Editar Livro</title>
     </head>
     <body>
+        <%@include file="jspf/menu.jspf" %>
         <form method="post">
     <center>
         <h1>Editar Livro</h1>
