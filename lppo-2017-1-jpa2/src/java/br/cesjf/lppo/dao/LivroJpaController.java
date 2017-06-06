@@ -152,5 +152,9 @@ public class LivroJpaController implements Serializable {
             em.close();
         }
     }
+
+    public Long findLivro(String id) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
